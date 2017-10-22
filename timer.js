@@ -1,5 +1,3 @@
-var MoonCalc = require('mooncalc');
-
 function startTime() {
     var today = new Date();
     var h = today.getHours();
