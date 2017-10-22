@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--start 2017.02.15 -->
+<html>
+  <head>
+    <meta charset="utf-8">
+        <link rel="stylesheet" href="data-search.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript" src="data-search.js"></script>
+        <title>What time is it?</title>
+    </head>
+
+    <body onload="startTime()" id="random-background">
+      <div class="time-container">
+        <div class="time1">
+            Today is 
+            <span id="day1"></span>
+            <span id="day2"></span>
+            <span id="day3"></span>
+        </div>
+
+        <div class="time2">
+            It's 
+            <span id=weekTime></span>
+        </div>
+
+        <div class="time3">
+            The current time is
+            <span id="clock"></span>
+        </div>      
+      </div>
+
+        <div id="button-container">
+            <a id="button" href="javascript: void(0)" >Click!</a>
+        </div>
+
+     <footer>
+         <a href="#">Home</a>
+     </footer>
+
+    <script src="./timer.js"></script>
+  </body>
+
+</html>

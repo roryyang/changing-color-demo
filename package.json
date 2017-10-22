@@ -1,0 +1,15 @@
+{
+  "name": "data_search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data-search.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mooncalc": "^1.0.7",
+    "webpack": "^3.8.1"
+  }
+}
